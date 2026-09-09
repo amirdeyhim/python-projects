@@ -136,3 +136,12 @@ def check_stock(inventory):
 
 print("check inventory:", check_stock(5))
 
+
+def check_stock(inventory: int) -> str:
+    if inventory > 0:
+        return "available"
+    else:
+        return "out of stock"
+
+
+print("check inventory:", check_stock(5))
