@@ -1,0 +1,3 @@
+my name is amir.
+I am learning Python.
+This is my new exercise.
