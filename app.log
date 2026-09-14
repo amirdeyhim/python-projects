@@ -1,0 +1,8 @@
+2026-09-14 16:30:49,822 - INFO - Application started successfully.
+2026-09-14 16:30:49,823 - WARNING - User entered a non-standard input.
+2026-09-14 16:30:49,823 - ERROR - Database connection failed.
+2026-09-14 16:44:23,662 - INFO - Order system initialized.
+2026-09-14 16:44:35,899 - ERROR - Failed order: User entered non-numeric input.
+2026-09-14 17:12:01,484 - INFO - User registered successfully. User ID: 452, Phone: *******6789
+2026-09-14 17:29:10,019 - INFO - Phone: *******6789
+2026-09-14 17:34:27,611 - INFO - card number: *******4567
