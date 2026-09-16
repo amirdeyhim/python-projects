@@ -1,0 +1,3 @@
+order_id,error_reason
+102,Invalid format: 'two'
+104,Invalid quantity: -4
