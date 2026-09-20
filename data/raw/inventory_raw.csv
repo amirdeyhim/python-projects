@@ -1,0 +1,5 @@
+product_id,product_name,stock_count
+1001,Laptop,50
+1002,Mouse,out_of_stock
+1003,Keyboard,-5
+1004,Monitor,20

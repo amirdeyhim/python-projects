@@ -1,0 +1,3 @@
+product_id,error_reason
+1002,Invalid format: 'out_of_stock'
+1003,Negative stock: -5
