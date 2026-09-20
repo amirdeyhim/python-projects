@@ -77,3 +77,59 @@ df.to_csv("user_feedbacks.csv", index=False)
 loaded_df = pd.read_csv("user_feedbacks.csv")
 
 print(loaded_df)
+
+#####################################################
+
+import pandas as pd
+
+data = {
+    "user_ID": [1001, 1002, 1003],
+    "rating": [4, 5, 2],
+    "platform": ["web", "ios", "android"],
+}
+df = pd.DataFrame(data)
+
+df.to_excel(
+    "feedbacks_report_v2.xlsx",
+    sheet_name="User_Reviews",
+    index=False,
+    engine="openpyxl",
+)
+
+print("فایل اکسل با موفقیت ساخته شد. حالا برو و آن را در پوشه سیستم باز کن.")
+
+#####################################################
+
+import pandas as pd
+
+data = {
+    "Project": ["Risalto", "Metayar", "Payeh", "Nilmootti"],
+    "Budget": [5000, 8000, 3000, 4500],
+    "Status": ["Active", "Completed", "Active", "Paused"],
+}
+df = pd.DataFrame(data)
+
+print("--- کل جدول ---")
+print(df)
+
+high_budget_condition = df["Budget"] > 4000
+
+high_budget_projects = df[high_budget_condition]
+
+print("\n--- پروژه‌های با بودجه بیشتر از 4000 ---")
+print(high_budget_projects)
+
+######################################################
+
+import pandas as pd
+
+data = {
+    "Project": ["Risalto", "Metayar", "Payeh", "Nilmootti"],
+    "Budget": [5000, 8000, 3000, 4500],
+    "Status": ["Active", "Completed", "Active", "Paused"],
+}
+df = pd.DataFrame(data)
+
+active_projects = df[df["Status"] == "Active"]
+
+print(active_projects)
