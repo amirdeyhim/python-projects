@@ -2,3 +2,5 @@
 logs/*.log
 *.log
 .vscode/
+*.csv
+*.xlsx
